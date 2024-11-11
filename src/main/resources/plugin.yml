@@ -1,0 +1,9 @@
+name: KeftemeUniqueItems
+version: '${project.version}'
+main: me.gaf1.keftemeuniqueitems.Plugin
+api-version: '1.16'
+
+commands:
+  keftemeitems:
+    aliases:
+      - ki

@@ -1,0 +1,65 @@
+Snowball:
+  Name: "&fСнежочек"
+  Lore:
+    - "&7Выкинь его и в радиусе 10 блоков около его падения"
+    - "&7Все игроки подпрыгнут и получат эффект"
+    - "&7Плавного падения"
+  Glow: true
+  Radius: 10
+  Jump_height: 1
+  Potion_effect_duration: 10
+  Potion_effect_amplifier: 2
+
+Rose:
+  Name: "&#3D08FBТаинственная роза"
+  Lore:
+    - "&7Используй розу и в радиусе 10 блоков"
+    - "&7Все игроки получат эффект иссушения"
+  Glow: true
+  Radius: 10
+  Potion_effect_duration: 10
+  Potion_effect_amplifier: 1
+
+Slime:
+  Name: "&#5DBA00Исцеляющая слизь"
+  Lore:
+    - "&7Используй слизь и ты получишь эффект регенерации"
+    - "&7В радиусе 10 блоков"
+    - "&7Все игроки получат эффект замедления"
+  Glow: true
+  Radius: 10
+  Slowness_effect_duration: 10
+  Slowness_effect_amplifier: 1
+  Regeneration_effect_duration: 60
+  Regeneration_effect_amplifier: 1
+
+Powder:
+  Name: "&#FF9C6CВзрывной порошок"
+  Lore:
+    - "&7Используй порошок и все игроки"
+    - "&7В радиусе 10 блоков"
+    - "&7Отлетят от тебя"
+  Glow: true
+  Radius: 10
+  Power_of_knockback: 1.0
+
+Membrane:
+  Name: "&#95DBFDНебесный призыв"
+  Lore:
+    - "&7Используй призыв и в радиусе 10 блоков"
+    - "&7Всех игроков ударит молния и они получат медление"
+  Glow: true
+  Radius: 10
+  Slowness_effect_duration: 10
+  Slowness_effect_amplifier: 5
+  Blindness_effect_duration: 10
+  Confusion_effect_duration: 10
+
+
+Messages:
+  use_item: "&fВы использовали %item%"
+  receiving_item: "&fВы получили %item%"
+  give_item: "&fВы выдали %item%&f игроку &a%player%"
+  reload_config: "&aКонфиг успешно перезагружен!"
+  not_enough_args: "&cТы ввел команду неправильно!"
+  not_enough_items: "&cВведи предмет который ты хочешь получить!"
