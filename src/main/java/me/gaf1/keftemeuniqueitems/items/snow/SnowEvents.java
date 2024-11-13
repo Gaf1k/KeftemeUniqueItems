@@ -26,6 +26,9 @@ public class SnowEvents implements Listener {
         if (!(event.getEntity().getShooter() instanceof Player)){
             return;
         }
+        if (!(event.getEntity() instanceof Snowball)){
+            return;
+        }
         if (!(event.getEntity().hasMetadata("snow"))){
             return;
         }
@@ -73,6 +76,12 @@ public class SnowEvents implements Listener {
 
     @EventHandler
     public void onLaunch(ProjectileLaunchEvent event){
+        if (!(event.getEntity().getShooter() instanceof Player)){
+            return;
+        }
+        if (!(event.getEntity() instanceof Snowball)){
+            return;
+        }
 
         Player player = (Player) event.getEntity().getShooter();
         ItemStack itemStack = player.getInventory().getItemInMainHand();
