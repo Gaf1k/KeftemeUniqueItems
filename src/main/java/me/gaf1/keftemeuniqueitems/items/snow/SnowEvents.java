@@ -23,6 +23,9 @@ public class SnowEvents implements Listener {
 
     @EventHandler
     public void onHit(ProjectileHitEvent event){
+        if (!(event.getEntity().getShooter() instanceof Player)){
+            return;
+        }
         if (!(event.getEntity().hasMetadata("snow"))){
             return;
         }
